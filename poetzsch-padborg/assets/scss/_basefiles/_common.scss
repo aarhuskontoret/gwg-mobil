@@ -1,0 +1,75 @@
+// OFF CANVAS ENABLE //
+body {
+	position: relative;
+	width: 100%;
+
+	.wrap-all {
+		position: relative;
+		overflow: hidden;
+		width: 100%;
+	}
+
+	.wrap-all-inner {
+		position: relative;
+		width: 100%;
+		left: 0;
+		z-index: 2;
+	}
+}
+
+.main {
+	overflow: auto;
+
+	img { max-width: 100%; height: auto; }
+}
+
+
+a {
+	@include transition(color 200ms linear);
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+.body-text {
+	width: 100%;
+
+	ul { padding: 0 0 0 2em; }
+}
+
+.super-header { text-align: center; }
+
+.main {
+	> .wrapper {
+		padding: 25px 10px;
+	}
+}
+
+.btn {
+	display: inline-block;
+	border-radius: 3px;
+	padding: 4px 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+	&.btn-full-width { width: 100%; text-align: center; }
+}
+
+
+/** THEME **/
+body {
+	.wrap-all-inner {
+		background-color: #e2e2e2;
+	}
+}
+
+.btn {
+	color: #fff;
+	border: 3px solid #fff;
+	@include background-image(linear-gradient(#f9313d,#ca0608));
+
+	&:hover { color: #fff; }
+}

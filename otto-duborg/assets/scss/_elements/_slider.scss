@@ -1,0 +1,31 @@
+.flexslider {
+	position: relative;
+
+	.flex-viewport { border-radius: 5px; }
+
+	.flex-control-nav {
+		position: absolute;
+		bottom: 5px;
+		width: 100%;
+		text-align: center;
+		li { display: inline-block; margin: 0 3px; }
+		a {
+			display: block;
+			width: 12px;
+			height: 12px;
+			border-radius: 6px;
+
+			border: 1px solid rgba(255,255,255,0.75);
+			background-color: rgba(0,0,0,0.3);
+			background-clip: content-box;
+
+			overflow: hidden;
+			text-indent: -999em;
+
+			&.flex-active {
+				background-color: $hovercolor;
+				background-clip: content-box;
+			}
+		}
+	}
+}

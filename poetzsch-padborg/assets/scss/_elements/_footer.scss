@@ -1,0 +1,58 @@
+.super-footer {
+	position: relative;
+	padding: 20px 0;
+
+	&:before {
+		content: "";
+		width: 100%;
+		height: 20px;
+		
+		position: absolute;
+		top: 0; left: 0;
+		@include background-image(linear-gradient(top,rgba(0,0,0,0.4),rgba(0,0,0,0.1),rgba(0,0,0,0)));
+
+		z-index: 10;
+	}
+
+	.newsletter, 
+	.facebook,
+	.show-desktop {
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		padding: 20px 10px;
+		
+	}
+
+	.newsletter {
+		border-bottom: 1px solid rgba(255,255,255,0.2);
+		form { overflow: hidden; 
+			> input { margin-bottom: 10px; }
+			.btn { float: right; }
+		}
+	}
+
+	.facebook {
+		border-bottom: 1px solid rgba(255,255,255,0.2);
+		> a {
+			display: inline-block;
+			padding: 5px 10px;
+			background-color: #4e69a2;
+			background-image: linear-gradient(#4e69a2,#3b5998);
+			color: #fff;
+			text-decoration: none;
+			border-radius: 5px;
+			border: 2px solid #fff;
+			box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+		}
+	}
+}
+
+
+/** THEME **/
+.super-footer {
+	background: url('../img/bg-m-dark.png');
+	color: #999;
+
+	h2 { color: #999;}
+}

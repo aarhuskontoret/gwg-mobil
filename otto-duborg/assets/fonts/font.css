@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Trade Gothic LT Std';
+  src: url('TradeGothicLTStd-Bd2.eot'); /* IE9 Compat Modes */
+  src: url('TradeGothicLTStd-Bd2.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('TradeGothicLTStd-Bd2.woff') format('woff'), /* Modern Browsers */
+       url('TradeGothicLTStd-Bd2.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('TradeGothicLTStd-Bd2.svg#c50f5e2adada586b2efc070013296a0d') format('svg'); /* Legacy iOS */
+       
+  font-style:   normal;
+  font-weight:  400;
+}
+

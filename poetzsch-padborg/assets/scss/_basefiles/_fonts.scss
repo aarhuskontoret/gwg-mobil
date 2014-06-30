@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'PoetschRegular';
+    src: url('fonts/poetschreg-webfont.eot');
+    src: url('fonts/poetschreg-webfont.woff') format('woff'),
+         url('fonts/poetschreg-webfont.ttf') format('Truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoetschBold';
+    src: url('fonts/poetschbol-webfont.eot');
+    src: url('fonts/poetschbol-webfont.woff') format('woff'),
+         url('fonts/poetschbol-webfont.ttf') format('Truetype');
+    font-weight: normal;
+    font-style: normal;
+  
+}
+
+$hovercolor: #e81f1f;
+$bodytext : 'PoetschRegular', Georgia, serif;
+$headertext: 'PoetschBold';
+
+body {
+	font-family: $bodytext;
+	font-size: 14px;
+	line-height: 1.3em;
+	color: #666;
+}
+
+h1, h2, h3 { font-family: $headertext; margin-top: 0.2em; }
+h1, h2, h3 { color: $hovercolor; }
+h1, h2 {
+	text-transform: uppercase;
+}
+
+h1 { font-size: 34px; margin-bottom: 1em; }
+h2 { font-size: 18px; margin-bottom: 0.5em; }
+h3 { font-size: 16px; margin-bottom: 0.3em; }
+h4 { font-size: 14px; margin-bottom: 0.3em; font-weight: bold; }
+
+p { margin-bottom: 1.3em; }
+
+strong { font-family: $headertext; }
+
+a { color: $hovercolor; }
+a:hover,
+a:focus {
+	color: #000;
+}
