@@ -343,9 +343,9 @@ body .wrap-all-inner { background-color: #fff; }
 
 /** theme **/
 /* line 52, ../../assets/scss/_elements/_top.scss */
-.top { text-align: left; background-color: #014285; background-image: url(../img/header-bg.png); background-size: 100% auto; }
+.top { text-align: left; background-color: #014285; background-image: url(/img/header-bg.png); background-size: 100% auto; }
 /* line 58, ../../assets/scss/_elements/_top.scss */
-.top .logo { position: absolute; display: block; width: 155px; height: 15px; left: 50%; top: 15px; margin-left: -77px; overflow: hidden; text-indent: -999em; background: url("../img/header-logo.png") 0 0 no-repeat; background-size: 100% auto; }
+.top .logo { position: absolute; display: block; width: 155px; height: 15px; left: 50%; top: 15px; margin-left: -77px; overflow: hidden; text-indent: -999em; background: url("/img/header-logo.png") 0 0 no-repeat; background-size: 100% auto; }
 /* line 73, ../../assets/scss/_elements/_top.scss */
 .top .menu-icon { border: 3px solid rgba(0, 0, 0, 0.3); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #03458d), color-stop(100%, #012c60)); background-image: -webkit-linear-gradient(#03458d, #012c60); background-image: -moz-linear-gradient(#03458d, #012c60); background-image: -o-linear-gradient(#03458d, #012c60); background-image: linear-gradient(#03458d, #012c60); }
 /* line 79, ../../assets/scss/_elements/_top.scss */

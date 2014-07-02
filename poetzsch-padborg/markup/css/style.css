@@ -305,13 +305,13 @@ body .wrap-all-inner { background-color: #e2e2e2; }
 
 /** THEME **/
 /* line 80, ../../assets/scss/_elements/_side-nav.scss */
-.side-nav { font-family: "PoetschRegular", Georgia, serif; background: url(../img/bg-dark.png); }
+.side-nav { font-family: "PoetschRegular", Georgia, serif; background: url(/img/bg-dark.png); }
 /* line 84, ../../assets/scss/_elements/_side-nav.scss */
 .side-nav a { color: #ccc; }
 /* line 85, ../../assets/scss/_elements/_side-nav.scss */
 .side-nav .active > a { color: #999; }
 /* line 87, ../../assets/scss/_elements/_side-nav.scss */
-.side-nav .side-nav-main { background: url(../img/bg-m-dark.png); }
+.side-nav .side-nav-main { background: url(/img/bg-m-dark.png); }
 /* line 89, ../../assets/scss/_elements/_side-nav.scss */
 .side-nav .side-nav-main a { color: #fff; }
 /* line 90, ../../assets/scss/_elements/_side-nav.scss */
@@ -341,9 +341,9 @@ body .wrap-all-inner { background-color: #e2e2e2; }
 
 /** theme **/
 /* line 52, ../../assets/scss/_elements/_top.scss */
-.top { text-align: left; background-color: #747474; background-image: url(../img/bg-medium.png); margin-bottom: 30px; }
+.top { text-align: left; background-color: #747474; background-image: url(/img/bg-medium.png); margin-bottom: 30px; }
 /* line 58, ../../assets/scss/_elements/_top.scss */
-.top .logo { position: absolute; display: block; width: 142px; height: 72px; left: 50%; top: 0px; margin-left: -71px; overflow: hidden; text-indent: -999em; background: url("../img/header-logo.png") 0 0 no-repeat; background-size: 100% auto; }
+.top .logo { position: absolute; display: block; width: 142px; height: 72px; left: 50%; top: 0px; margin-left: -71px; overflow: hidden; text-indent: -999em; background: url("/img/header-logo.png") 0 0 no-repeat; background-size: 100% auto; }
 /* line 73, ../../assets/scss/_elements/_top.scss */
 .top .menu-icon { border: 3px solid #fff; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9313d), color-stop(100%, #ca0608)); background-image: -webkit-linear-gradient(#f9313d, #ca0608); background-image: -moz-linear-gradient(#f9313d, #ca0608); background-image: -o-linear-gradient(#f9313d, #ca0608); background-image: linear-gradient(#f9313d, #ca0608); }
 
@@ -368,7 +368,7 @@ body .wrap-all-inner { background-color: #e2e2e2; }
 
 /** THEME **/
 /* line 53, ../../assets/scss/_elements/_footer.scss */
-.super-footer { background: url("../img/bg-m-dark.png"); color: #999; }
+.super-footer { background: url("/img/bg-m-dark.png"); color: #999; }
 /* line 57, ../../assets/scss/_elements/_footer.scss */
 .super-footer h2 { color: #999; }
 

@@ -340,7 +340,7 @@ body .wrap-all-inner { background-color: #f1f1f1; }
 /* line 52, ../../assets/scss/_elements/_top.scss */
 .top { text-align: left; background-color: #db3124; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e43d2c), color-stop(100%, #ce2118)); background-image: -webkit-linear-gradient(#e43d2c, #ce2118); background-image: -moz-linear-gradient(#e43d2c, #ce2118); background-image: -o-linear-gradient(#e43d2c, #ce2118); background-image: linear-gradient(#e43d2c, #ce2118); }
 /* line 57, ../../assets/scss/_elements/_top.scss */
-.top .logo { position: absolute; display: block; width: 136px; height: 35px; left: 50%; top: 5px; margin-left: -66px; overflow: hidden; text-indent: -999em; background: url("../img/header-logo.png") 0 0 no-repeat; background-size: 100% auto; }
+.top .logo { position: absolute; display: block; width: 136px; height: 35px; left: 50%; top: 5px; margin-left: -66px; overflow: hidden; text-indent: -999em; background: url("/img/header-logo.png") 0 0 no-repeat; background-size: 100% auto; }
 /* line 72, ../../assets/scss/_elements/_top.scss */
 .top .menu-icon { border: 3px solid rgba(0, 0, 0, 0.3); background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ec4733), color-stop(100%, #c61811)); background-image: -webkit-linear-gradient(#ec4733, #c61811); background-image: -moz-linear-gradient(#ec4733, #c61811); background-image: -o-linear-gradient(#ec4733, #c61811); background-image: linear-gradient(#ec4733, #c61811); }
 
@@ -348,7 +348,7 @@ body .wrap-all-inner { background-color: #f1f1f1; }
 .header-text { margin: 20px auto 0; max-width: 90%; }
 
 /* line 1, ../../assets/scss/_elements/_footer.scss */
-.super-footer { position: relative; padding: 20px 0; background: #c1c1c1 url("../img/footer-background.png") center top no-repeat; }
+.super-footer { position: relative; padding: 20px 0; background: #c1c1c1 url("/img/footer-background.png") center top no-repeat; }
 /* line 8, ../../assets/scss/_elements/_footer.scss */
 .super-footer .newsletter, .super-footer .facebook, .super-footer .show-desktop { display: inline-block; vertical-align: top; width: 100%; padding: 20px 10px; }
 /* line 15, ../../assets/scss/_elements/_footer.scss */

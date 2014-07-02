@@ -79,13 +79,13 @@
 
 .side-nav {
 	font-family: $bodytext;
-	background: url(../img/bg-dark.png);
+	background: url(/img/bg-dark.png);
 
 	a { color: #ccc; }
 	.active > a { color: #999; }
 
 	.side-nav-main {
-		background: url(../img/bg-m-dark.png);
+		background: url(/img/bg-m-dark.png);
 		a { color: #fff; }
 		.active > a { color: $hovercolor; font-family: $headertext; }
 	}
