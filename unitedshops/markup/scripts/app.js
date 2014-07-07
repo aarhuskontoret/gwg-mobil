@@ -7,7 +7,7 @@ var base = (function() {
 			var container = $('#shops');
 			var shopsList = '<ul>';
 
-			$.getJSON('butikker.json', function(feed) {
+			$.getJSON('/united/shops.aspx', function(feed) {
 				$.each(feed,function(key,data) {
 					
 					// MARKERS ON MAP
