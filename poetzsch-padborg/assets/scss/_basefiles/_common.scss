@@ -74,22 +74,20 @@ body {
 	&:hover { color: #fff; }
 }
 
-.richTxtHolder {
-	table {
-		width: 100% !important;
-		tr {
-			td:nth-child(3n+3) {
-				display: block;
-				margin-bottom: 1em;
-				font-weight: normal;
-			}
+table {
+	width: 100% !important;
+	tr {
+		td:nth-child(3n+3) {
+			display: block;
+			margin-bottom: 1em;
+			font-weight: normal;
 		}
-		td {
-			display: inline-block;
-			font-weight: bold;
-			padding-right: 10px;
-			
-		}
+	}
+	td {
+		display: inline-block;
+		font-weight: bold;
+		padding-right: 10px;
+		
 	}
 }
 .skemaBodyText {
