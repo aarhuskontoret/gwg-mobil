@@ -205,7 +205,7 @@ h1, h2, h3 { color: #e81f1f; }
 h1, h2 { text-transform: uppercase; }
 
 /* line 37, ../../assets/scss/_basefiles/_fonts.scss */
-h1 { font-size: 34px; margin-bottom: 1em; }
+h1 { font-size: 34px; margin-bottom: 1em; line-height: 1em; }
 
 /* line 38, ../../assets/scss/_basefiles/_fonts.scss */
 h2 { font-size: 18px; margin-bottom: 0.5em; }
@@ -258,18 +258,46 @@ a { -webkit-transition: color 200ms linear; -moz-transition: color 200ms linear;
 .main > .wrapper { padding: 25px 10px; }
 
 /* line 51, ../../assets/scss/_basefiles/_common.scss */
-.btn { display: inline-block; border-radius: 3px; padding: 4px 10px; text-transform: uppercase; text-decoration: none; }
+.btn, #toldreglerTop ul li a { display: inline-block; border-radius: 3px; padding: 4px 10px; text-transform: uppercase; text-decoration: none; }
 /* line 58, ../../assets/scss/_basefiles/_common.scss */
-.btn.btn-full-width { width: 100%; text-align: center; }
+.btn.btn-full-width, #toldreglerTop ul li a.btn-full-width { width: 100%; text-align: center; }
 
 /** THEME **/
 /* line 64, ../../assets/scss/_basefiles/_common.scss */
 body .wrap-all-inner { background-color: #e2e2e2; }
 
 /* line 69, ../../assets/scss/_basefiles/_common.scss */
-.btn { color: #fff; border: 3px solid #fff; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9313d), color-stop(100%, #ca0608)); background-image: -webkit-linear-gradient(#f9313d, #ca0608); background-image: -moz-linear-gradient(#f9313d, #ca0608); background-image: -o-linear-gradient(#f9313d, #ca0608); background-image: linear-gradient(#f9313d, #ca0608); }
+.btn, #toldreglerTop ul li a { color: #fff; border: 3px solid #fff; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9313d), color-stop(100%, #ca0608)); background-image: -webkit-linear-gradient(#f9313d, #ca0608); background-image: -moz-linear-gradient(#f9313d, #ca0608); background-image: -o-linear-gradient(#f9313d, #ca0608); background-image: linear-gradient(#f9313d, #ca0608); }
 /* line 74, ../../assets/scss/_basefiles/_common.scss */
-.btn:hover { color: #fff; }
+.btn:hover, #toldreglerTop ul li a:hover { color: #fff; }
+
+/* line 78, ../../assets/scss/_basefiles/_common.scss */
+.richTxtHolder table { width: 100% !important; }
+/* line 81, ../../assets/scss/_basefiles/_common.scss */
+.richTxtHolder table tr td:nth-child(3n+3) { display: block; margin-bottom: 1em; font-weight: normal; }
+/* line 87, ../../assets/scss/_basefiles/_common.scss */
+.richTxtHolder table td { display: inline-block; font-weight: bold; padding-right: 10px; }
+
+/* line 96, ../../assets/scss/_basefiles/_common.scss */
+.skemaBodyText table { width: 100% !important; margin-bottom: 20px; }
+/* line 97, ../../assets/scss/_basefiles/_common.scss */
+.skemaBodyText table td { width: 75% !important; padding: 2px 0; }
+/* line 98, ../../assets/scss/_basefiles/_common.scss */
+.skemaBodyText table td + td { width: 25% !important; }
+
+/* line 101, ../../assets/scss/_basefiles/_common.scss */
+#toldreglerTop ul { list-style: none; }
+/* line 103, ../../assets/scss/_basefiles/_common.scss */
+#toldreglerTop ul li { display: inline-block; }
+/* line 108, ../../assets/scss/_basefiles/_common.scss */
+#toldreglerTop ul li a.active { font-weight: bold; }
+
+/* line 114, ../../assets/scss/_basefiles/_common.scss */
+#toldSkemaHolder { width: 100%; height: 260px; overflow: hidden; position: relative; margin: 20px 0; }
+/* line 120, ../../assets/scss/_basefiles/_common.scss */
+#toldSkemaHolder #toldSkema { width: 400%; position: absolute; }
+/* line 121, ../../assets/scss/_basefiles/_common.scss */
+#toldSkemaHolder #toldSkema .skemaBodyText { width: 25%; float: left; }
 
 /* ELEMENT STYLES */
 /* line 2, ../../assets/scss/_elements/_side-nav.scss */
@@ -360,7 +388,7 @@ body .wrap-all-inner { background-color: #e2e2e2; }
 /* line 30, ../../assets/scss/_elements/_footer.scss */
 .super-footer .newsletter form > input { margin-bottom: 10px; }
 /* line 31, ../../assets/scss/_elements/_footer.scss */
-.super-footer .newsletter form .btn { float: right; }
+.super-footer .newsletter form .btn, .super-footer .newsletter form #toldreglerTop ul li a, #toldreglerTop ul li .super-footer .newsletter form a { float: right; }
 /* line 35, ../../assets/scss/_elements/_footer.scss */
 .super-footer .facebook { border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
 /* line 37, ../../assets/scss/_elements/_footer.scss */
@@ -472,24 +500,6 @@ button {
 
 /* line 2, ../../assets/scss/_templates/_shops.scss */
 .shops .main > .wrapper { overflow: hidden; }
-/* line 5, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list ul { list-style: none; padding: 0 0 0 20px; }
-/* line 6, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li { position: relative; margin: 5px 0; }
-/* line 9, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li a { color: #e81f1f; }
-/* line 10, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li > a { text-decoration: none; }
-/* line 11, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li.active > a { font-weight: bold; }
-/* line 13, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li:before { content: "\203A"; position: absolute; top: -4px; left: -15px; text-align: center; color: #666; font-size: 26px; line-height: 1em; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); -webkit-transition: -webkit-transform 300ms ease; -moz-transition: -moz-transform 300ms ease; -o-transition: -o-transform 300ms ease; transition: transform 300ms ease; }
-/* line 28, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li.active:before { -webkit-transform: rotate(-90deg) translateY(-4px); -moz-transform: rotate(-90deg) translateY(-4px); -ms-transform: rotate(-90deg) translateY(-4px); -o-transform: rotate(-90deg) translateY(-4px); transform: rotate(-90deg) translateY(-4px); }
-/* line 32, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li .shop-info { display: none; font-size: 12px; margin-right: 20px; }
-/* line 37, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li .shop-info .links { padding: 10px 0; border-bottom: 1px solid #ccc; }
 
 /* VENDOR STYLES */
 /* jQuery FlexSlider v2.2.0 http://www.woothemes.com/flexslider/  Copyright 2012 WooThemes Free to use under the GPLv2 license. http://www.gnu.org/licenses/gpl-2.0.html  Contributing author: Tyler Smith (@mbmufffin) */

@@ -465,24 +465,25 @@ button {
 
 /* line 2, ../../assets/scss/_templates/_shops.scss */
 .shops .main > .wrapper { overflow: hidden; }
-/* line 5, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list ul { list-style: none; padding: 0 0 0 20px; }
+
 /* line 6, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li { position: relative; margin: 5px 0; }
-/* line 9, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li a { color: #bb3227; }
+.shops-list ul { list-style: none; padding: 0 0 0 20px; }
+/* line 7, ../../assets/scss/_templates/_shops.scss */
+.shops-list li { position: relative; margin: 5px 0; }
 /* line 10, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li > a { text-decoration: none; }
+.shops-list li a { color: #bb3227; }
 /* line 11, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li.active > a { font-weight: bold; }
-/* line 13, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li:before { content: "\203A"; position: absolute; top: -4px; left: -15px; text-align: center; color: #666; font-size: 26px; line-height: 1em; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); -webkit-transition: -webkit-transform 300ms ease; -moz-transition: -moz-transform 300ms ease; -o-transition: -o-transform 300ms ease; transition: transform 300ms ease; }
-/* line 28, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li.active:before { -webkit-transform: rotate(-90deg) translateY(-4px); -moz-transform: rotate(-90deg) translateY(-4px); -ms-transform: rotate(-90deg) translateY(-4px); -o-transform: rotate(-90deg) translateY(-4px); transform: rotate(-90deg) translateY(-4px); }
-/* line 32, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li .shop-info { display: none; font-size: 12px; margin-right: 20px; }
-/* line 37, ../../assets/scss/_templates/_shops.scss */
-.shops .shops-list li .shop-info .links { padding: 10px 0; border-bottom: 1px solid #ccc; }
+.shops-list li > a { text-decoration: none; }
+/* line 12, ../../assets/scss/_templates/_shops.scss */
+.shops-list li.active > a { font-weight: bold; }
+/* line 14, ../../assets/scss/_templates/_shops.scss */
+.shops-list li:before { content: "\203A"; position: absolute; top: -4px; left: -15px; text-align: center; color: #666; font-size: 26px; line-height: 1em; -webkit-transform: rotate(90deg); -moz-transform: rotate(90deg); -ms-transform: rotate(90deg); -o-transform: rotate(90deg); transform: rotate(90deg); -webkit-transition: -webkit-transform 300ms ease; -moz-transition: -moz-transform 300ms ease; -o-transition: -o-transform 300ms ease; transition: transform 300ms ease; }
+/* line 29, ../../assets/scss/_templates/_shops.scss */
+.shops-list li.active:before { -webkit-transform: rotate(-90deg) translateY(-4px); -moz-transform: rotate(-90deg) translateY(-4px); -ms-transform: rotate(-90deg) translateY(-4px); -o-transform: rotate(-90deg) translateY(-4px); transform: rotate(-90deg) translateY(-4px); }
+/* line 33, ../../assets/scss/_templates/_shops.scss */
+.shops-list li .shop-info { display: none; font-size: 12px; margin-right: 20px; }
+/* line 38, ../../assets/scss/_templates/_shops.scss */
+.shops-list li .shop-info .links { padding: 10px 0; border-bottom: 1px solid #ccc; }
 
 /* VENDOR STYLES */
 /* jQuery FlexSlider v2.2.0 http://www.woothemes.com/flexslider/  Copyright 2012 WooThemes Free to use under the GPLv2 license. http://www.gnu.org/licenses/gpl-2.0.html  Contributing author: Tyler Smith (@mbmufffin) */

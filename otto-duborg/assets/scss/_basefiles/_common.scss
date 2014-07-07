@@ -73,3 +73,39 @@ body {
 
 	&:hover { color: #fff; }
 }
+
+.main {
+	table { width: 100%; 
+		tr {
+			td {
+				font-weight: bold;
+				display: inline-block;
+				padding-right: 10px;
+
+				&:nth-child(3n+3) {
+					display: block; font-weight: normal;
+					margin-bottom: 1em;
+				}
+			}
+		}
+	}
+
+	.right-col {
+		border-top: 1px solid #0d244f;
+		margin-top: 20px;
+		padding-top: 20px;
+
+		.col { margin-bottom: 20px; 
+			.col-title {
+				display: block;
+				padding: 5px 0;
+				background: #0d244f;
+				color: #fdd515;
+				text-align: center; 
+				text-transform: uppercase;
+				font-weight: bold;
+				font-size: 1.3em;
+			}
+		}
+	}
+}

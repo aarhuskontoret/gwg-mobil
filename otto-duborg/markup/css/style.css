@@ -273,6 +273,19 @@ body .wrap-all-inner { background-color: #fff; }
 /* line 74, ../../assets/scss/_basefiles/_common.scss */
 .btn:hover { color: #fff; }
 
+/* line 78, ../../assets/scss/_basefiles/_common.scss */
+.main table { width: 100%; }
+/* line 80, ../../assets/scss/_basefiles/_common.scss */
+.main table tr td { font-weight: bold; display: inline-block; padding-right: 10px; }
+/* line 85, ../../assets/scss/_basefiles/_common.scss */
+.main table tr td:nth-child(3n+3) { display: block; font-weight: normal; margin-bottom: 1em; }
+/* line 93, ../../assets/scss/_basefiles/_common.scss */
+.main .right-col { border-top: 1px solid #0d244f; margin-top: 20px; padding-top: 20px; }
+/* line 98, ../../assets/scss/_basefiles/_common.scss */
+.main .right-col .col { margin-bottom: 20px; }
+/* line 99, ../../assets/scss/_basefiles/_common.scss */
+.main .right-col .col .col-title { display: block; padding: 5px 0; background: #0d244f; color: #fdd515; text-align: center; text-transform: uppercase; font-weight: bold; font-size: 1.3em; }
+
 /* ELEMENT STYLES */
 /* line 2, ../../assets/scss/_elements/_side-nav.scss */
 .show-menu .wrap-all-inner { left: 80%; }
