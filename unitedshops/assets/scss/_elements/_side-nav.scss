@@ -58,7 +58,7 @@
 
 		> ul { line-height: 30px; padding-top: 5px;
 			li { padding: 0 20px; 
-				a { text-decoration: none; }
+				a { text-decoration: none; display: block; }
 			}
 		}
 
@@ -89,3 +89,11 @@
 		.active > a { color: #d92e22; }
 	}
 }
+
+#node1049 .side-nav-main li:nth-child(1),
+#node1152 .side-nav-main li:nth-child(2),
+#node1057 .side-nav-main li:nth-child(3),
+#node1069 .side-nav-main li:nth-child(4),
+#node1063 .side-nav-main li:nth-child(5),
+#node1070 .side-nav-main li:nth-child(6) { > a { color: #d92e22; } }
+

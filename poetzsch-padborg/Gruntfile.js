@@ -25,7 +25,7 @@ module.exports = function(grunt) {
 				options: {
 					sassDir: 'assets/scss',
 					cssDir: 'markup/css',
-					outputStyle: 'compact'
+					outputStyle: 'compressed'
 				}
 			},
 			release: {
